@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Report</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: center;
+        }
+        th, td {
+            min-width: 100px;
+        }
+        .student-name-input,
+        .attendance-input {
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .final-grade {
+            text-align: left;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Performance Report</h1>
+    <form>
+        <table>
+            <tr>
+                <th rowspan="2">Student</th>
+                <th colspan="3">Subjects</th>
+                <th rowspan="2">Attendance</th>
+                <th rowspan="2">Final Grade</th>
+            </tr>
+            <tr>
+                <th>Math</th>
+                <th>Science</th>
+                <th>History</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td><input type="text" name="math_grade1" value="A" class="student-name-input"></td>
+                <td>
+                    <select name="science_grade1">
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="F">F</option>
+                    </select>
+                </td>
+                <td><input type="checkbox" name="history_pass1" checked> Pass</td>
+                <td><input type="text" name="attendance1" value="95%" class="attendance-input"></td>
+                <td class="final-grade">
+                    Math: A <br>
+                    Science: B <br>
+                    History: Pass <br>
+                    Total: B+
+                </td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td><input type="text" name="math_grade2" value="B" class="student-name-input"></td>
+                <td>
+                    <select name="science_grade2">
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="F">F</option>
+                    </select>
+                </td>
+                <td><input type="checkbox" name="history_pass2"> Pass</td>
+                <td><input type="text" name="attendance2" value="85%" class="attendance-input"></td>
+                <td class="final-grade">
+                    Math: B <br>
+                    Science: C <br>
+                    History: Pass <br>
+                    Total: B+
+                </td>
+            </tr>
+            <tr>
+                <td>Sam Brown</td>
+                <td><input type="text" name="math_grade3" value="C" class="student-name-input"></td>
+                <td>
+                    <select name="science_grade3">
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="F">F</option>
+                    </select>
+                </td>
+                <td><input type="checkbox" name="history_pass3" checked> Pass</td>
+                <td><input type="text" name="attendance3" value="75%" class="attendance-input"></td>
+                <td class="final-grade">
+                    Math: C <br>
+                    Science: B <br>
+                    History: Pass <br>
+                    Total: B+
+                </td>
+            </tr>
+        </table>
+        <p>Generated on: <input type="date" name="report_date"></p>
+    </form>
+</body>
+</html>

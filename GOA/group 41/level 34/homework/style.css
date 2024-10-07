@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(255, 242, 226);
+}
+#div1 {
+    background-color:rgb(197, 197, 197);
+    width: 50%;
+    height: 325px;
+    text-align: center;
+    margin-top: 30%;
+    margin-left: 27%;
+    display:flex;
+    flex-direction: row;
+    border: 1.5px , solid , black
+}
+#btn {
+    width: 90px;
+    height: 40px;
+    background-color:rgb(211, 162, 0);
+    border-radius: 1.5rem;
+    border: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+}
+#h1 {
+    font-weight: bold;
+}
+#p2 {
+    font-weight: 100;
+    color: rgb(104, 104, 104);
+}
+#img1 {
+    width: 50%;
+}
+#h3 {
+    color:rgb(0, 167, 0);
+    font-weight:bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+}

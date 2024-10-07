@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Directory Scan Form</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <label for="scan-for">Scan for:</label>
+        <select id="scan-for" name="scan_for">
+        <option value="active-directory">Active Directory</option>
+        <option value="active-directory">Not active-directory</option>
+        </select>
+        <br><br>
+
+        <label for="domain-name">Fully-qualified domain name:</label>
+        <input type="text" id="domain-name" name="domain_name">
+        <br><br>
+
+        <label for="organizational-unit">Organizational Unit:</label>
+        <input type="text" id="organizational-unit" name="organizational_unit">
+        <br><br>
+
+        <label for="domain-controller">Domain controller:</label>
+        <input type="text" id="domain-controller" name="domain_controller" >
+        <br><br>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <button type="submit">Add to Scan</button>
+        <button type="button">Exclude from Scan</button>
+    </form>
+</body>
+</html>

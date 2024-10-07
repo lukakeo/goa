@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ .img1{
+border-radius: 15px;
+cursor: pointer;
+
+ }
+ .img2{
+    border-radius: 15px;
+    cursor: pointer;
+     }
+     .img3{
+        border-radius: 15px;
+        cursor: pointer;
+         }
+         .but1{
+            width: 200px;
+            height: 50px;
+            border-radius:25px ;
+            border: none;
+            color: black;
+            font-size: 20px;
+            background-color: yellow;
+            cursor: pointer;
+        }
+        .but2{
+            width: 200px;
+            height: 50px;
+            border-radius:25px ;
+            border: none;
+            color: black;
+            font-size: 20px;
+            background-color: yellow;
+            cursor: pointer;
+        }
+        
+        .but3{
+            width: 200px;
+            height: 50px;
+            border-radius:25px ;
+            border: none;
+            color: black;
+            font-size: 20px;
+            background-color: rgb(251, 255, 0);
+            cursor: pointer;
+        }
+
+        h1{
+            color:black;
+            font-size:50px;
+        }
