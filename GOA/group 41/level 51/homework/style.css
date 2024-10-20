@@ -1,0 +1,31 @@
+div{
+    position: relative ;
+}
+
+head{
+    position: relative ;
+}
+
+h1{
+    position: absolute ;
+}
+
+h2{
+    position: absolute ;
+}
+
+h3{
+    position: fixed ;
+}
+
+h4{
+    position: fixed ;
+}
+
+h5{
+    position: sticky ;
+}
+
+h6{
+    position: sticky ;
+}

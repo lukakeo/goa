@@ -1,0 +1,59 @@
+h1{
+    display: inline;
+}
+
+h2{
+    display:inline;
+}
+
+h3{
+    display: inline;
+}
+
+h4{
+    display:inline;
+}
+
+h5{
+    display: inline;
+}
+
+p{
+    display:inline-block;
+}
+
+div{
+    display:inline-block;
+}
+
+li{
+    display:inline-block;
+}
+
+head{
+    display:inline-block;
+}
+
+header{
+    display:inline-block;
+}
+
+footer{
+    display:block;
+}
+
+body{
+    display:block;
+}
+
+label{
+    display:block;
+}
+
+form{
+    display:block;
+}
+
+button{
+    display:block;
+}
