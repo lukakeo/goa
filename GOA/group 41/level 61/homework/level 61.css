@@ -1,0 +1,46 @@
+#div1{
+    background-color: red;
+    border: 2px solid black;
+  }
+  
+  #div1:hover {
+      transform: skew(10deg);
+      transition: 2.5s;
+      background: red;
+      border: 2px solid black;
+  }
+  
+  #div2{
+    background-color: red;
+    border: 2px solid black;
+  }
+  
+  #div2:hover {
+      transform: scale(5);
+      transition: 5s;
+      background: red;
+      border: 2px solid black;
+  }
+  
+  #div3{
+    background-color: red;
+    border: 2px solid black;
+  }
+  
+  #div3:hover {
+      transform: rotate(180deg);
+      transition: 2.5s;
+      background: red;
+      border: 2px solid black;
+  }
+  
+  #div4{
+    background-color: red;
+    border: 2px solid black;
+  }
+  
+  #div4:hover {
+      transform: translate(100px);
+      transition: 2.5s;
+      background: red;
+  }

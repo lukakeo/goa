@@ -1,0 +1,38 @@
+:root{
+    --c: rgb(55, 255, 0);
+    --bg: rgb(255, 0, 0);
+    --fs: 20px;
+    --ff: sans-serif;
+    --bs: 0 0 10px rgba(54, 49, 49, 0.5);
+    --b: 2px solid black;
+    --br: 30%;
+    --m: 10px;
+    --p: 5px;
+    --pos: absolute;
+}
+
+
+html{
+    background-color: var(--bg);
+}
+
+#div{
+    position: var(--pos);
+    margin: var(--m);
+    padding: var(--p);
+    border: var(--b);
+    border-radius: var(--br);
+    box-shadow: var(--bs);
+    color: var(--c)
+}
+
+p{
+    font-size: var(--fs);
+    font-family: var(--ff);
+}
+
+h1{
+    font-size: var(--fs);
+    font-family: var(--ff);
+    color: var(--c);
+}

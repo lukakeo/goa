@@ -1,0 +1,43 @@
+header{
+    height: 250px;
+    width: 100%;
+    background-color: red;
+}
+p{
+    width: 200px;
+    color: white;
+    text-align: center;
+}
+
+html{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img{
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1024px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    p{
+        width: 200px;
+        color: white;
+    }
+
+    main{
+        flex-direction: column;
+        gap: 80px;
+    }
+    
+    html{
+        background-color: black;
+    }
+
+    
+}

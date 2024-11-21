@@ -1,0 +1,35 @@
+#div{
+    border: 2px solid black;
+    border-radius: 30%;
+    width: 100px;
+    height: 100px;
+    animation-name: css;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-timing-function: calc(5);
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes css{
+    20%{
+        start: 0deg;
+    }
+    40%{
+        transform: rotate(20deg);
+    }
+    60%{
+        transform: rotate(-360deg);
+    }
+
+    60%{
+        transform: translateX(500px);
+    }
+    
+    80%{
+        transform: rotate(360deg);
+    }
+    
+}

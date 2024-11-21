@@ -1,0 +1,37 @@
+html{
+    background: rgb(42,42,42);
+}
+
+#div1{
+    background: limegreen;
+    height: 200px;
+    width: 200px;
+}
+
+
+#div1:hover{
+    background: red;
+    transform: ease-out;
+    height: 400px;
+    width: 400px;
+    transition: 5s;
+    box-shadow: 6px 6px 6px rgb(0, 255, 21);
+    transform: duration(3s);
+    opacity: 0.5
+}
+
+#div2{
+    background-color: rgb(238, 255, 0);
+    height: 200px;
+    width: 200px;
+}
+
+#div2:hover{
+    background-color: aqua;
+    transform: skew(10deg);
+    height: 200px;
+    width: 200px;
+    transition: 3s;
+    transform: duration(3s);
+    opacity: 0.5
+}
