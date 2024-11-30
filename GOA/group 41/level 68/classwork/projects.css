@@ -1,0 +1,42 @@
+*{
+    background-color: #8df0dc;
+    margin: 0;
+    padding: 0;
+    box-shadow:border-box; ;
+}
+
+header{
+    position: relative;
+    left: 850px;
+    top: 10px;
+    width: 400px;
+    margin-left: 0px;
+
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px; 
+    padding-left: 20px;
+}
+header a:hover{
+    color: rgb(3, 200, 3);
+}
+
+div img{
+    position: relative;
+    top: 10px;
+    left: 630px;
+    height: 500px;
+    width: 600px;
+    border-radius: 5px;
+}
+div p{
+    position: relative;
+    top: 300px;
+    width: 300px;
+    left: 150px;
+    font-weight: bold;
+    font-size: 30px;
+    
+}

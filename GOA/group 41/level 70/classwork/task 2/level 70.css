@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .grid-container {
+    display: grid;
+    width: 90%;
+    height: 90vh;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+    grid-template-rows: 80px 150px 1fr 80px;
+    grid-template-areas:
+      "header header header header"
+      "aside sect1 sect2 sect3"
+      "aside content content content"
+      "aside footer footer footer";
+    gap: 10px;
+    background-color: #e0e0e0;
+  }
+  
+  header {
+    grid-area: header;
+    background-color: #a2c9f1;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+  }
+  
+  aside {
+    grid-area: aside;
+    background-color: #0074d9;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+  }
+  
+  .sect1 {
+    grid-area: sect1;
+    background-color: #c9e5ff;
+    text-align: center;
+    line-height: 150px;
+  }
+  
+  .sect2 {
+    grid-area: sect2;
+    background-color: #7baedb;
+    text-align: center;
+    line-height: 150px;
+  }
+  
+  .sect3 {
+    grid-area: sect3;
+    background-color: #89b9e4;
+    text-align: center;
+    line-height: 150px;
+  }
+  
+  main {
+    grid-area: content;
+    background-color: #a2c9f1;
+    text-align: center;
+    line-height: 100%;
+  }
+  
+  footer {
+    grid-area: footer;
+    background-color: #4a8cc7;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+  }

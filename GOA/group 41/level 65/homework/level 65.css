@@ -1,0 +1,78 @@
+@import url(https://fonts.google.com/specimen/Arvo);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body img:hover{
+    filter: brightness(1.2);
+}
+
+body button{
+    border: 0px;
+    font-size: large;
+}
+
+#button:hover{
+    background-color: #ff6600;
+}
+
+h1{
+    color:#ff5900
+}
+
+#button{
+    border-radius: 10px;
+    height: 67px;
+    width: 296px;
+    background-color: #ff5900;
+    color:white;
+    font-weight: bold;
+    font-family: 'Brava Slab semi bold';
+}
+
+#button:hover{
+    background-color: #ff6600
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+#img{
+    width: 1120px;
+    height: 631px;
+}
+
+#div button{
+    border-radius: 10px;
+    background-color: #ee1c25;
+    color:white;
+    height: 49px;
+    width: 202px
+}
+
+#div button:hover{
+    background-color: #ff202b
+}
+
+#div img{
+    width: 546px;
+    height: 305px;
+}
+
+
+#h1{
+    text-align: center;
+    font-size: 62px;
+}
+
+.hr1{
+    height: 1px;
+    width: 1000px;
+}

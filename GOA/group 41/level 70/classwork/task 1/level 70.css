@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(60, 255, 0);
+    color: rgb(0, 234, 255);
+    display: grid;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+
+nav{
+    background-color: rgb(60, 255, 0);
+    color: rgb(0, 234, 255);
+    display: grid;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+meta{
+    background-color: rgb(60, 255, 0);
+    color: rgb(0, 234, 255);
+    display: grid;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+aside{
+    background-color: rgb(60, 255, 0);
+    color: rgb(0, 234, 255);
+    display: grid;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+footer{
+    background-color: rgb(60, 255, 0);
+    color: rgb(0, 234, 255);
+    display: grid;
+    border: 1px solid black;
+    height: 100vh;
+}
