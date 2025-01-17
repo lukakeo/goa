@@ -1,0 +1,12 @@
+button{
+    width: 150px;
+    height: 50px;
+    transition: 0.8s;
+    color: green
+}
+
+button:hover{
+    background-color: yellow;
+    transform: scale(1.2);
+    transform: rotate(5deg);
+}

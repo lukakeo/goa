@@ -1,0 +1,21 @@
+{
+    "name": "goa",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "build": "tailwindcss -i src/style.css -o public/output.css"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lukakeo/goa.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+      "url": "https://github.com/lukakeo/goa/issues"
+    },
+    "homepage": "https://github.com/lukakeo/goa#readme",
+    "description": ""
+  }

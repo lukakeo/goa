@@ -1,0 +1,277 @@
+*{
+    background-color: #0A0E27;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+img{
+    border-radius: 5px;
+}
+
+header{
+    margin-top: 10px;
+    position: relative;
+    left: 750px;
+    top: 10px;
+    width: 400px;
+}
+
+header a {
+    text-decoration: none;
+    color: #1E88E5;
+    font-size: 20px; 
+    padding-left: 20px;
+}
+
+header a:hover{
+    color: #4CAF50;
+}
+
+#projects{
+    color: #4CAF50;
+}
+
+p{
+    color: #FFC107;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#rock{
+    position: relative;
+    top: 10px;
+    left: 630px;
+    height: 500px;
+    width: 600px;
+    border-radius: 5px;
+    justify-content:center;
+    align-content:space-between;
+}
+
+div p{
+    position: relative;
+    top: 300px;
+    width: 300px;
+    left: 150px;
+}
+
+#math{
+    position: relative;
+    top: 10px;
+    left: 630px;
+    height: 658px;
+    width: 500px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+
+@media screen and (max-width: 1440px) {
+
+    header{
+        left: 550px;
+    }
+    
+}
+
+
+
+
+
+ @media screen and (max-width: 1024px) {
+
+    header{
+        left: 315px;
+    }
+
+    div p{
+        left: 50px;
+    }
+
+    #rock{
+        left: 400px;
+    }
+
+    #math{
+        left: 400px;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        left: 215px;
+    }
+
+    div p {
+        text-align: center;
+        left: 250px;
+        top: 0;
+        position: relative;
+    }
+
+    #rock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 80px;
+        top: 50px
+    }
+
+    #math {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 150px;
+        top: 300px;
+    }
+    
+    #p{
+        top: 30px
+    }
+
+    #p2{
+        top: 300px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    header {
+        left: 0px;
+    }
+
+    header a{
+        padding-left: 10px;
+        left: 0;
+    }
+
+    div p {
+        text-align: center;
+        left: 60px;
+        top: 0;
+        position: relative;
+    }
+
+    #rock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0px;
+        top: 50px
+    }
+
+    #math {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0px;
+        top: 300px;
+    }
+    
+    #p{
+        top: 30px
+    }
+
+    #p2{
+        top: 300px;
+    }
+    
+}
+
+@media screen and (max-width: 376px) {
+
+    header{
+        left: 0px;
+    }
+    
+    header a{
+        padding-left: 10px;
+        left: 0;
+    }
+
+    div p {
+        text-align: center;
+        left: 60px;
+        top: 0;
+        position: relative;
+    }
+
+    #rock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0px;
+        top: 50px
+    }
+
+    #math {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0px;
+        top: 300px;
+    }
+    
+    #p{
+        top: 30px
+    }
+
+    #p2{
+        top: 300px;
+    }
+}
+
+
+
+@media screen and (max-width: 321px) {
+
+    header{
+        left: 0px;
+    }
+    
+    header a{
+        padding-left: 10px;
+        left: 0;
+    }
+
+    div p {
+        text-align: center;
+        left: 10px;
+        top: 0;
+        position: relative;
+    }
+
+    #rock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0px;
+        top: 50px
+    }
+
+    #math {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0px;
+        top: 300px;
+    }
+    
+    #p{
+        top: 30px
+    }
+
+    #p2{
+        top: 300px;
+    }
+}

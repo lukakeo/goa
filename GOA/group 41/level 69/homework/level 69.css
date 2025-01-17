@@ -1,0 +1,14 @@
+#div{
+    display: grid;
+    column-gap: 50px;
+}
+
+#div1{
+    display: grid;
+    row-gap: 50px;
+}
+
+#div2{
+    display: grid;
+    gap: 50px 100px;
+}

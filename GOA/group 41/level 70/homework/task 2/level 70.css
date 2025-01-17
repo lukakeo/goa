@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+
+    display: grid;
+
+    grid-template-areas:
+    'header header nav'
+    'section section nav'
+;
+    grid-template-columns: 850px 850px 850px;
+    grid-template-rows: 480px 480px 480px;
+}
+
+header, nav, section, section{
+    background-color: steelblue;
+    border: 1px solid skyblue;
+    color: white;
+    font-family: cursive;
+    padding: 20px;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+section {
+    grid-area: section;
+}
+
+section {
+    grid-area: section;
+}

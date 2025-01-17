@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+  
+    display: grid;
+  
+    grid-template-areas:
+    'header header header'
+    'nav content sidebar'
+    'nav footer footer'
+    ;
+  
+    grid-template-rows: 248px 774px 774px 774px;
+    grid-template-columns:110px 362px 604px 111px;
+  }
+  
+  header, aside, div, main, footer{
+    background-color: steelblue;
+    border: 1px solid skyblue;
+    color: white;
+    font-family: cursive;
+    padding: 20px;
+  }
+  
+  header {
+    grid-area: header;
+  }
+  
+  aside {
+    grid-area: aside;
+  }
+  
+  div{
+    grid-area: div;
+  }
+  
+  main {
+    grid-area: main;
+  }
+  
+  footer {
+    grid-area: footer;
+  }
