@@ -1,0 +1,17 @@
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-left: 470px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
